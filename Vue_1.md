@@ -9,7 +9,7 @@ Vue.js 是一个典型的 MVVM 框架，整个程序从最上层分为
 * 1 全局设计：包括全局接口、默认选项
 * 2 vm 实例设计： 包括接口设计（vm 原型）、实例初始化过程设计（vm构造函数）
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6ftbpavij20qf0gm400.jpg)
+![](./img/vue.png)
 
 构造函数核心的工作内容：
 
