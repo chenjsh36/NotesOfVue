@@ -429,3 +429,5 @@ export default {
 ## 资源
 * [另一位作者关于 vue 2.1.7 源码解析](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 
+
+
