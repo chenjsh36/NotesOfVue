@@ -13,7 +13,7 @@ Vue.js 是一个典型的 MVVM 框架，整个程序从最上层分为
 
 构造函数核心的工作内容：
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6fu5lnemj20rl0evta6.jpg)
+![](./imgs/vueinit.png)
 
 整个实例初始化过程，关键在于将 数据(Model) 和 视图（view）建立起关联关系：
 
@@ -32,7 +32,7 @@ Vue.js 是一个典型的 MVVM 框架，整个程序从最上层分为
 
 这个时候的项目结构如下：
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6j0yptb3j20a40cygli.jpg)
+![](./imgs/vue_dir.png)
 
 源码在 src 里面，build 为打包编译的代码，dist 为打包后代码放置的位置， test 为测试代码目录。
 
@@ -203,7 +203,7 @@ export default Vue
 
 目录如下：
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6jv6lqzzj209f035mwx.jpg)
+![](./instance_dir.png)
 
 从注释可以知道，尤大用前缀 __$__ 标记公用方法和变量，用 **_**标记私有的方法和变量，没有前缀的变量可能用来代理用户数据
 
@@ -256,7 +256,7 @@ __index.js__ 里剩下这三个都是作为 Vue.options 里的变量存在的，
 
 从[1.0 官网文档 custom-directive](https://v1.vuejs.org/guide/custom-directive.html) 中可以知道 directive 是让开发者开发自己的指令，具体例子如下
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6kve9qbaj20nb0n6t9k.jpg)
+![](./imgs/directive.png)
 
 而 [element-directive](https://v1.vuejs.org/guide/custom-directive.html#Element-Directives) 和 directive 类似，只是形式上是作为一个元素存在，无法传输给元素数据，但是可以操作元素的属性
 
@@ -420,7 +420,7 @@ export default {
 
 节点类型：
 
-![](http://ww1.sinaimg.cn/large/a64e5cc2gy1fi6ok1kebuj20n30jn3zk.jpg)
+![](./imgs/notetype.png)
 
 (摘自http://www.w3school.com.cn/jsref/prop_node_nodetype.asp)
 
