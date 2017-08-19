@@ -90,7 +90,7 @@ var MutationObserver = window.MutationObserver || window.WebKitMutationObserver 
 
 这里需要了解**JS的运行运行机制**（重新刷新了我的三观）, JS 的事件运行机制执行的时候会区分 **task** 和 **microtask**, 引擎在每个 **task** 执行完毕，并在从队列里取**下一个task来执行之前**， 执行完所有的 **microtask** 队列中的 microtask
 
-![](./imgs/task_microtask.jpg)
+![](./imgs/task_microtask.png)
 (task 和 microtask 摘自 https://jakearchibald.com/)
 
 
