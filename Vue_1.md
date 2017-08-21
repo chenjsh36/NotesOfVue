@@ -203,7 +203,7 @@ export default Vue
 
 目录如下：
 
-![](./instance_dir.png)
+![](./imgs/instance_dir.png)
 
 从注释可以知道，尤大用前缀 __$__ 标记公用方法和变量，用 **_**标记私有的方法和变量，没有前缀的变量可能用来代理用户数据
 
