@@ -46,6 +46,8 @@ Dep.prototype.notify = function () {
 
 代码量很少，但是几个点暂时不明，一个是 ```this.subs.$remove(sub)```, 貌似是给数组添加了一个 remove 方法， **target** 拥有 **addDep** 方法， **subs**的 item 拥有 **update** 方法
 
+更正，dep 类用来做依赖采集，是一个简单的订阅-观察者模式，而 target 和 subs 用于存放 watcher，dep 类用于数据响应化的实现，在后续会讲到这个
+
 
 ### src/observer/array.js
 
